@@ -5,7 +5,87 @@
 @import url('footer.css');
 
 
-  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -14,23 +94,39 @@
     vertical-align: baseline;
   }
 
-  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  section {
     display: block;
   }
 
   body {
     line-height: 1;
+    -webkit-text-size-adjust: none;
   }
 
-  ol, ul {
+  ol,
+  ul {
     list-style: none;
   }
 
-  blockquote, q {
+  blockquote,
+  q {
     quotes: none;
   }
 
-  blockquote:before, blockquote:after, q:before, q:after {
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
     content: '';
     content: none;
   }
@@ -40,13 +136,11 @@
     border-spacing: 0;
   }
 
-  body {
-    -webkit-text-size-adjust: none;
-  }
-
 /* Box Model */
 
-  *, *:before, *:after {
+  *,
+  *:before,
+  *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -57,158 +151,34 @@
   .container {
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .container.\31 25\25 {
-    width: 100%;
-    max-width: 1750px;
-    min-width: 1400px;
-  }
-
-  .container.\37 5\25 {
-    width: 1050px;
-  }
-
-  .container.\35 0\25 {
-    width: 700px;
-  }
-
-  .container.\32 5\25 {
-    width: 350px;
-  }
-
-  .container {
-    width: 1400px;
+    width: 1440px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 21px
   }
 
   @media screen and (min-width: 961px) and (max-width: 1880px) {
-
-    .container.\31 25\25 {
-      width: 100%;
-      max-width: 1500px;
-      min-width: 1200px;
-    }
-
-    .container.\37 5\25 {
-      width: 900px;
-    }
-
-    .container.\35 0\25 {
-      width: 600px;
-    }
-
-    .container.\32 5\25 {
-      width: 300px;
-    }
-
     .container {
       width: 1200px;
     }
-
   }
 
   @media screen and (min-width: 961px) and (max-width: 1620px) {
-
-    .container.\31 25\25 {
-      width: 100%;
-      max-width: 1200px;
-      min-width: 960px;
-    }
-
-    .container.\37 5\25 {
-      width: 720px;
-    }
-
-    .container.\35 0\25 {
-      width: 480px;
-    }
-
-    .container.\32 5\25 {
-      width: 240px;
-    }
-
     .container {
       width: 960px;
     }
-
   }
 
   @media screen and (min-width: 961px) and (max-width: 1320px) {
-
-    .container.\31 25\25 {
-      width: 100%;
-      max-width: 125%;
-      min-width: 100%;
-    }
-
-    .container.\37 5\25 {
-      width: 75%;
-    }
-
-    .container.\35 0\25 {
-      width: 50%;
-    }
-
-    .container.\32 5\25 {
-      width: 25%;
-    }
-
     .container {
       width: 100%;
     }
-
   }
 
   @media screen and (max-width: 960px) {
-
-    .container.\31 25\25 {
-      width: 100%;
-      max-width: 125%;
-      min-width: 100%;
-    }
-
-    .container.\37 5\25 {
-      width: 75%;
-    }
-
-    .container.\35 0\25 {
-      width: 50%;
-    }
-
-    .container.\32 5\25 {
-      width: 25%;
-    }
-
-    .container {
-      width: 100%;
-    }
-
-  }
-
-  @media screen and (max-width: 736px) {
-
-    .container.\31 25\25 {
-      width: 100%;
-      max-width: 125%;
-      min-width: 100%;
-    }
-
-    .container.\37 5\25 {
-      width: 75%;
-    }
-
-    .container.\35 0\25 {
-      width: 50%;
-    }
-
-    .container.\32 5\25 {
-      width: 25%;
-    }
-
     .container {
       width: 100% !important;
     }
-
   }
 
 /* Grid */
@@ -1567,6 +1537,10 @@
     }
 
   input, textarea, select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+    border-radius: 0
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 19pt;
     font-weight: 300;
@@ -2082,37 +2056,11 @@
         color: rgb(3,120,228);
       }
 
-/* Footer */
-
-  #footer {
-    margin-left: 375px;
-    text-align: center;
-    background-color: #dce3e2;
-    padding: 3em 0 4em 0;
+  .footer {
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
     font-size: 0.8em;
+    background: #222629;
   }
-
-    #footer .copyright {
-      cursor: default;
-      margin: 0;
-    }
-
-      #footer .copyright li {
-        display: inline-block;
-        line-height: 1em;
-        border-left: solid 1px rgba(128, 128, 128, 0.35);
-        padding: 0 0 0 0.5em;
-        margin: 0 0 0 0.5em;
-      }
-
-        #footer .copyright li:first-child {
-          border-left: 0;
-          padding-left: 0;
-          margin-left: 0;
-        }
-
-/* Main */
 
   #main {
     margin-left: 375px;
@@ -2158,7 +2106,7 @@
 
       #main > section.one {
         background-color: #81918E;
-        background-image: url("../../images/banner.jpg");
+        background-image: url("../images/banner.jpg");
       }
 
       #main > section.two {
@@ -2191,7 +2139,7 @@
 
     /* Footer */
 
-      #footer {
+      .footer {
         margin-left: 300px;
       }
 
@@ -2274,7 +2222,7 @@
 
     /* Footer */
 
-      #footer {
+      .footer {
         margin-left: 20%;
       }
 
@@ -2447,7 +2395,7 @@
 
     /* Footer */
 
-      #footer {
+      .footer {
         margin-left: 0;
       }
 
@@ -2519,7 +2467,7 @@
 
     /* Footer */
 
-      #footer .copyright li {
+      .footer .copyright li {
         display: block;
         line-height: 1.25em;
         border: 0;
@@ -2527,8 +2475,7 @@
         margin: 1em 0 0 0;
       }
 
-        #footer .copyright li:first-child {
-          margin-top: 0;
-        }
-
+      .footer .copyright li:first-child {
+        margin-top: 0;
+      }
   }
